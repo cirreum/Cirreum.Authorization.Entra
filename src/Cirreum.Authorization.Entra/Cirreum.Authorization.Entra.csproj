@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<RootNamespace>Cirreum.Authorization</RootNamespace>
+		<Description>Authorization provider using Azure Entra.</Description>
+		<PackageTags>cirreum;authorization;configuration;entra</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Identity.Web" Version="4.1.0" />
+		<PackageReference Include="Cirreum.AuthorizationProvider" Version="1.0.100" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="Cirreum.Providers" />
+	</ItemGroup>
+
+</Project>
