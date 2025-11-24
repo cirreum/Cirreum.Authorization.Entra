@@ -11,8 +11,6 @@ public sealed class EntraAuthorizationRegistrar
 		EntraAuthorizationSettings,
 		EntraAuthorizationInstanceSettings> {
 
-	public override ProviderType ProviderType => ProviderType.Authorization;
-
 	public override string ProviderName => "Entra";
 
 	public override void AddAuthorizationForWebApi(IConfigurationSection instanceSection,
